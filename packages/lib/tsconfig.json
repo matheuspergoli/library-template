@@ -1,0 +1,7 @@
+{
+	"extends": "@repo/tsconfig/internal-package.json",
+	"compilerOptions": {
+		"types": ["@repo/tsconfig/reset", "node"]
+	},
+	"include": ["src"]
+}
